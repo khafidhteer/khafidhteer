@@ -1,14 +1,4 @@
-# Ignore everything EXCEPT README.md
+# Only README.md is exposed to GitHub visitors
+# Everything else (CVs, .clinerules, memory-bank, etc.) stays local
 *
 !/README.md
-
-# But also keep .gitignore, .clinerules, and memory-bank/ tracked
-!/.gitignore
-!/.clinerules
-!/memory-bank/
-/memory-bank/*
-!/memory-bank/projectbrief.md
-!/memory-bank/productContext.md
-!/memory-bank/activeContext.md
-!/memory-bank/systemPatterns.md
-!/memory-bank/techContext.md
