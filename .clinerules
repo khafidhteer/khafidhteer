@@ -1,0 +1,30 @@
+# khafidhteer — GitHub Profile Repository Rules
+
+## Project Overview
+This repository is the GitHub Profile README for **khafidhteer** (Khafidh Tri Ramdhani).
+It showcases professional capabilities as:
+- Lead Data Analyst
+- Senior GTM Engineer
+- Senior Revenue Operation / RevOps
+
+## Key Rules
+
+### README Content Rules
+1. **Factual accuracy**: ALL information in README.md must be based on CV files and khafidhteer-summary.md. Never fabricate or embellish.
+2. **SEO keywords** must be naturally integrated: Khafidh, Khafidh Ramdhani, Khafidh Tri Ramdhani, Lead Data Analyst, Senior GTM Engineer, Senior Revenue Operation, Senior RevOps.
+3. **Professional tone**: Showcase capabilities without exaggeration.
+
+### File Management
+1. **Only `README.md`** is exposed to GitHub visitors via `.gitignore`
+2. `.clinerules`, `memory-bank/`, and the CV PDFs are for development context only
+3. CV PDFs (`CV_Khafidh Tri Ramdhani - *.pdf`) are gitignored by default pattern
+
+### Future Updates
+- When adding new content, always cross-reference against the CV PDFs and memory-bank
+- Update `memory-bank/activeContext.md` with each session's work
+- Do NOT add new tracked files without updating `.gitignore` accordingly
+
+### Source of Truth Hierarchy
+1. **CV PDFs** (most authoritative — factual work history)
+2. **khafidhteer-summary.md** (GitHub repo data)
+3. **memory-bank/** (project context and state)

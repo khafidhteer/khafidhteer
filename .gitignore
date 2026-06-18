@@ -1,0 +1,14 @@
+# Ignore everything EXCEPT README.md
+*
+!/README.md
+
+# But also keep .gitignore, .clinerules, and memory-bank/ tracked
+!/.gitignore
+!/.clinerules
+!/memory-bank/
+/memory-bank/*
+!/memory-bank/projectbrief.md
+!/memory-bank/productContext.md
+!/memory-bank/activeContext.md
+!/memory-bank/systemPatterns.md
+!/memory-bank/techContext.md
